@@ -1,5 +1,5 @@
 # Video Calling Web Application
-## Video calling web application built using modern technologies like React.js (with Vite), Node.js, and the WebRTC library. This project enables server connections to facilitate real-time communication between users within a shared lobby environment.
+  Video calling web application built using modern technologies like React.js (with Vite), Node.js, and the WebRTC library. This project enables server connections to facilitate real-time communication between users within a shared lobby environment.
 
 ## Features
 
