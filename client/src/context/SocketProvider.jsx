@@ -11,7 +11,12 @@ export const useSocket = () =>{
 
 
 const SocketProvider = (props) => {
-  const socket = useMemo(() => io("localhost:8000"), []);
+  const socketUrl =
+    process.env.NODE_ENV === 'production'
+      ? "https://video-chat-application-server.vercel.app/"// Production URL from environment variable
+      : "http://localhost:8000"; 
+
+   const socket = useMemo(() => io(socketUrl), [socketUrl]);
 
   return (
     <SocketContext.Provider value={socket}>
