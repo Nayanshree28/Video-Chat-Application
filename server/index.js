@@ -1,7 +1,10 @@
 import { Server } from "socket.io";
 
 const io = new Server(8000, {
-  cors: true,
+  cors: {
+    origin: "https://video-chat-application-pi.vercel.app", // Replace with your frontend URL
+    methods: ["GET", "POST"]
+  }
 });
 
 const emailToSocketIdMap = new Map();
