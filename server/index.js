@@ -1,6 +1,6 @@
 import { Server } from "socket.io";
 
-const io = new Server(8000, {
+const io = new Server({
   cors: {
     origin: "https://video-chat-application-pi.vercel.app", // Replace with your frontend URL
     methods: ["GET", "POST"]
