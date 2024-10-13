@@ -15,8 +15,7 @@
 - *WebRTC:* Enables real-time video and audio communication directly between browsers.
 
 # layout one
-   ![image](https://github.com/user-attachments/assets/9e952d0b-6274-4f8a-87e3-787852fd2e44)
+  
 
 # user one streaming:
-   ![image](https://github.com/user-attachments/assets/8b0a718e-b12d-46ab-b656-3561fae3dcdc)
-   
+ 
